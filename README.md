@@ -1,1 +1,3 @@
-# -ScrollDependentAnimation-part2
+# Examples of scroll dependent animations
+
+The repository you are currently viewing contains a project that was previously described in an article. The article covers examples of animations that react to **UIScrollView** content scrolling  events. I tried to implement all the examples in different ways so that you have more food for thought. I hope you will find plenty of ideas here that will help you while writing your code. Additionally, I would like to emphasize that it is important not only to master different approaches but also to be able to choose the one that is suitable for your specific task.
