@@ -9,8 +9,8 @@ import UIKit
 
 class CoordinatesChangeView: UIView {
     
-    var animationCompletionPercentage: Double = 0 {
-        didSet { animator.fractionComplete = animationCompletionPercentage }
+    var animationCompletionPercent: Double = 0 {
+        didSet { animator.fractionComplete = animationCompletionPercent }
     }
     
     // MARK: - Private properties

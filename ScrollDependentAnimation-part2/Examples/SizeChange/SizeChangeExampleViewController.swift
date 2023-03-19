@@ -106,9 +106,11 @@ extension SizeChangeExampleViewController: UITableViewDelegate {
             animatedConstraint?.constant = newConstraintConstant
             scrollView.contentOffset.y = previousContentOffsetY
         }
-
-        // Animation progress percentage
-        avatarHeightConstraint?.constant = currentConstraintConstant
+        
+        // If the height constant is modified, changing the height of avatar
+        if newConstraintConstant != avatarHeightConstraint!.constant {
+            avatarHeightConstraint?.constant = currentConstraintConstant
+        }
         
         previousContentOffsetY = scrollView.contentOffset.y
     }

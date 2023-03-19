@@ -108,7 +108,7 @@ extension CoordinatesChangeExampleViewController: UITableViewDelegate {
 
         // Animation progress percentage
         let animationCompletionPercent = (maxConstraintConstant - currentConstraintConstant) / (maxConstraintConstant - minConstraintConstant)
-        coordinateChangeView.animationCompletionPercentage = animationCompletionPercent
+        coordinateChangeView.animationCompletionPercent = animationCompletionPercent
 
         previousContentOffsetY = scrollView.contentOffset.y
     }
